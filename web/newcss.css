@@ -1,0 +1,54 @@
+
+.titulo{
+font: small-caps 200%/300% serif;
+color:white ; 
+text-align:  center;
+background-color: black
+
+}
+h1 {
+    text-align: left;
+    background: white;
+    font: 0.5px;
+}
+.menu{
+    font: small-caps 300%/200% serif;
+    font-size:x-large;
+    text-align: center;
+    background-color: black
+} /*cambiar espacios entre parrafos*/
+.texto1
+    background: black;
+    font-family: 'Georgia', serif; 
+    text-align: center;
+     
+}
+
+.h2{
+     color: orange;
+    text-align-last: left;
+}
+.texto2{
+    font-size: 0.5px;
+    
+}
+.titulos{
+    text-align: left;
+     color:white;
+    background: black;
+}
+.h3{
+    font-size: 0.8px;
+    text-align: left;   
+
+    color: whitesmoke;
+    
+}
+.imagene{
+    background: blue;
+}
+.espacio{
+    padding-bottom: 20px;
+}
+
+

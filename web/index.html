@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="newcss.css" rel="stylesheet" type="text/css"/>
+    <title>División Horizontal</title>
+
+    <style>
+        /* Configura el cuerpo para llenar toda la altura de la ventana */
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Cada sección ocupa el 50% de la altura de la ventana */
+        .top, .bottom {
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+        }
+
+        /* Estilo para la parte superior */
+        .top {
+            
+            background-color: lightblue;
+        }
+
+        /* Estilo para la parte inferior */
+        .bottom {
+             height: 80%;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top">
+        <iframe src="https://eyes.nasa.gov/apps/orrery/#/home" width="1550" height="900"></iframe>
+       
+    </div>
+<div class="titulo"> 
+    <h2>pagina nasa</h2>
+</div>
+    <div class="bottom">
+        <style>
+        /* Configuración de la página */
+        body {
+            display: flex;
+            height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+            margin: 0; /* Elimina márgenes por defecto */
+        }
+
+        /* División de las dos secciones, izquierda y derecha, con 50% de ancho */
+        .left, .right {
+            flex: 1; /* Ambas partes ocupan el mismo ancho */
+            padding: 150px;
+        }
+
+        /* Estilos de la parte izquierda */
+        .left {
+            background-color: black;
+            text-align: left;   /* Color de fondo de la parte izquierda */
+        }
+
+        /* Estilos de la parte derecha */
+        .right {
+            background-color: lightgreen; /* Color de fondo de la parte derecha */
+        }
+    </style>
+    <div class="left">
+        <h1>QUE ES LA NASA</h1>
+    </div>
+
+    <div class="right">
+        <!-- Contenido del lado derecho -->
+        todos
+    </div>
+    </div>
+
+</body>
+</html>
